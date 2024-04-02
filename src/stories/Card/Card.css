@@ -1,0 +1,25 @@
+/* card.css */
+
+.storybook-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .storybook-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .storybook-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .storybook-card p {
+    margin-bottom: 0;
+  }
+  
